@@ -22,7 +22,7 @@ nano /etc/zabbix/zabbix_agent.conf
 Меняем следующие значения:\
 Server=    ваш ip adresss\
 Hostname=  такой же нужно будет прописать на основном сервере\
-TLSAccept=psk
+TLSAccept=psk\
 TLSConnect=psk\
 TLSPSKFile=/etc/zabbix/zabbix_agent.psk\
 TLSPSKIdentity=<Hostname>  - тут меняйте значение на свое - такое же должно использоваться на серверной части\
