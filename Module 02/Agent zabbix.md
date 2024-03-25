@@ -36,7 +36,7 @@ https://www.zabbix.com/download?zabbix=6.4&os_distribution=debian&os_version=11&
 Упращенная инсталяция агента
 
 
-Установка агента Zabbix Обновление базы данных пакетов и установка агента Zabbix:
+Установка агента :
 ```
 sudo apt update
 sudo apt install zabbix-agent
@@ -57,7 +57,7 @@ sudo systemctl start zabbix-agent
 
 Установка агента в Windows
 
-Установка агента Zabbix Обновление базы данных пакетов и установка агента Zabbix:
+Установка агента Zabbix :
 ```
 https://www.zabbix.com/download_agents
 ```
